@@ -14,7 +14,7 @@ You need a VR headset in this case an Oculus Rift/Quest/Quest2
 When downlaoded, you have compile time errors in the project. To solve them install the XR interaction toolkit package via the Package Manager. (!Enable in Advanced Settings Preview Packages).
 
 ### Target platform: 
-Oculus Rift/S; Quest/2
+Quest/2
 
 ### Visuals: 
 Screenshots (concept and experience), Video
@@ -24,4 +24,4 @@ For testing without a headset, use the XR Device Simulator (included in the xr i
 
 ### Limitations/Problems: 
 
-Copyright by smeerws :)
+Copyright by Simon M. Berger
