@@ -5,6 +5,7 @@ using UnityEngine;
 public class SnowballSpawner : MonoBehaviour
 {
     public GameObject snowball;
+    public Transform spawnPos;
 
     // Start is called before the first frame update
     void Start()
@@ -20,7 +21,8 @@ public class SnowballSpawner : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        Instantiate(snowball);
+        Instantiate(snowball, spawnPos.position, Quaternion.identity);
+
         Debug.Log("snowball creaated");
     }
 }
