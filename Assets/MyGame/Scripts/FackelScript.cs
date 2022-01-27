@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class FackelScript : MonoBehaviour
@@ -8,7 +6,13 @@ public class FackelScript : MonoBehaviour
     public GameObject meltableWall;
     private bool isMoving = false;
     public float speed;
+    AudioSource meltSFX;
 
+    private void Start()
+    {
+        meltSFX = gameObject.GetComponent<AudioSource>();
+        meltSFX.enabled = false;
+    }
     private void Update()
     {
         if (isMoving)
@@ -25,6 +29,7 @@ public class FackelScript : MonoBehaviour
         {
             isMoving = true;
             Destroy(meltableWall, 3f);
+            meltSFX.enabled = true;
         }
     }
 }
