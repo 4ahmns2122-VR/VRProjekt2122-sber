@@ -2,39 +2,47 @@
 
 ### Project description: 
 Story: Ein Geschwisterpaar ist in einem Labyrinth gefangen wobei das jüngere Geschwisterchen (Gj) vom älteren (Ga) herausgeführt werden muss. Der Spieler spielt Ga und muss 2 Puzzle lösen, um Gj zu finden und ein weiteres, um Gj herauszuführen. 
-##Meilensteine: 
-#1.) 2.Dez.2021: 
+## Meilensteine: 
+# 1.) 2.Dez.2021: 
 a. Movement (Teleportation) 
-b. 1. Puzzle 
+b. 1. Puzzle
 c. (optional) Partikel für Lawine 
 d. (optional) Startbildschirm 
 
-#2.) 23.Dez.2021: 
+Movement und Puzzle 1 funktionieren die Lawine ist auch drin
+
+# 2.) 23.Dez.2021: 
 a. Bunsenbrenner-PickUp 
 b. Interaction mit Wand (optional mit Animation) 
-#3.) 17.Feb.2022: 
+
+Bunsenbrenner wurde zu Fackel, Fackel interagiert mit Wand, Wand ist animiert
+
+# 3.) 17.Feb.2022: 
 a. Geschwisterchen folgt 
 b. Audioimplementation
-c. Endbildschirm
+c. (optional) Endbildschirm
 
-##Audio: 
-1.) Hilferufe 
+Geschwisterchen Puzzle wurde gekürzt (auf Befehl der Frau Prof.), Audio nicht komplett implementiert
+
+## Audio: 
+1.) Hilferufe (wegen Kürzung nicht möglich)
 2.) Ambiance 
 3.) Lawine 
 4.) Schneeball Hit 
 5.) Schneeball nehmen 
-6.) Bunsenbrenner (wenn man die Wand schmilzt)
+6.) Bunsenbrenner (wenn man die Wand schmilzt)/ Wand Schmilzt jetzt aufgrund von Änderung
 
-##MVP: 
-Audio, um Geschwisterchen zu lokalisieren 
-#Puzzle I:
-werfbare Schneebälle, bei jedem Abschnitt, um einen zu werfen gibt es einen Schneehaufen mit unendlichem Vorrat 
-#Puzzle 2:
-es gibt im Labyrinth einen Bunsenbrenner mit welchen man sich durch eine Wand schmelzen muss. 
-#Puzzle 3:
-man muss sein Geschwisterchen aus dem Labyrinth führen.
+## MVP: 
+Audio, um Geschwisterchen zu lokalisieren (nicht möglich wegen Kürzung)
+# Puzzle I (funktioniert*):
+werfbare Schneebälle, bei jedem Abschnitt, um einen zu werfen gibt es einen Schneehaufen mit unendlichem Vorrat
+* Bug mit dem der Schneeballhaufen zu viele Schneebälle erstellt
+# Puzzle 2 (funktioniert):
+es gibt im Labyrinth einen Bunsenbrenner mit welchen man sich durch eine Wand schmelzen muss. (Bunsenbrenner -> Fackel, jetzt mehrere Wände) 
+# Puzzle 3 (gekürzt):
+man muss sein Geschwisterchen aus dem Labyrinth führen. 
 
-##Arbeitsschritte: 
+## Arbeitsschritte: 
 1.) GitHub Projekt 
 2.) Auf Plattform testen (.apk, Quest) 
 3.) Whiteboxing 
@@ -62,7 +70,7 @@ OS: Windows 10, Game Engine: Unity 2020.3.18f1, Visual Studio 2019, XR Interacti
 
 ## Software/Hardware Requirements: 
 Oculus hardware requirements https://support.oculus.com/248749509016567/
-You need a VR headset in this case an Oculus Rift/Quest/Quest2
+VR Headset benötigt in diesem falle eine Oculus Rift/Quest/Quest2 
 
 When downlaoded, you have compile time errors in the project. To solve them install the XR interaction toolkit package via the Package Manager. (!Enable in Advanced Settings Preview Packages).
 
