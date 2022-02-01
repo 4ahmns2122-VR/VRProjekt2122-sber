@@ -4,7 +4,7 @@
 Story: Ein Geschwisterpaar ist in einem Labyrinth gefangen wobei das jüngere Geschwisterchen (Gj) vom älteren (Ga) herausgeführt werden muss. Der Spieler spielt Ga und muss 2 Puzzle lösen, um Gj zu finden und ein weiteres, um Gj herauszuführen. 
 ## Meilensteine: 
 # 1.) 2.Dez.2021: 
-*a. Movement (Teleportation) 
+*a. Movement (Teleportation)* 
 *b. 1. Puzzle
 *c. (optional) Partikel für Lawine 
 *d. (optional) Startbildschirm 
