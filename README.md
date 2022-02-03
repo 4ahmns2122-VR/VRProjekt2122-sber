@@ -123,5 +123,8 @@ SFX: https://freesound.org
      Script der Schmelzenden wand wurde von https://github.com/simoneliskases geschrieben
 
 ### Limitations/Problems: 
+Wenn eine Schneeball aus dem Haufen genommen wird dann kann es vorkommen, dass eine unkontrollierbare Menge an Schneebällen erstellt werden.
+Es wurde vorerst behoben indem der Trigger vom Haufen größer gemacht wurde, jetzt muss man dafür arbeiten dass dieser Bug auftitt.
+
 
 Copyright by Simon M. Berger
