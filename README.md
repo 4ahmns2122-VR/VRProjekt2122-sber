@@ -118,6 +118,8 @@ Screenshots (concept and experience), Video
 ### Third party material: 
 Fürs testen ohne Headset, XR Device Simulatot verwenden (included in the xr interaction toolkit package):  https://www.youtube.com/watch?v=d4bTpkvBwrs
 SFX: https://freesound.org
+     https://youtu.be/cGoEkaYog7U
+     https://youtu.be/_zDN_-5YG3g
 Script der Schmelzenden wand wurde von https://github.com/simoneliskases geschrieben
 
 ### Limitations/Problems: 
