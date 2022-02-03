@@ -23,6 +23,6 @@ public class SnowballSpawner : MonoBehaviour
     {
         Instantiate(snowball, spawnPos.position, Quaternion.identity);
 
-        Debug.Log("snowball creaated");
+        Debug.Log("snowball created");
     }
 }

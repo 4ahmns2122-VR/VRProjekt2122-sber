@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Avalanche : MonoBehaviour
 {
-    public GameObject snowball;
     public GameObject filledHole;
     public GameObject lawine;
 
