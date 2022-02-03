@@ -107,7 +107,7 @@ OS: Windows 10, Game Engine: Unity 2020.3.18f1, Visual Studio 2019, XR Interacti
 Oculus hardware requirements https://support.oculus.com/248749509016567/
 VR Headset benötigt, in diesem falle eine Oculus Rift/Quest/Quest2 
 
-When downlaoded, you have compile time errors in the project. To solve them install the XR interaction toolkit package via the Package Manager. (!Enable in Advanced Settings Preview Packages).
+Nach dem herunterladen wird es einen Haufen Compilererorrors im Projekt. Um diese los zu werden, muss das XR interaction toolkit via den Package Manager installiert werden (!Preview Packages aktivieren)
 
 ### Target platform: 
 Quest/2
@@ -116,7 +116,9 @@ Quest/2
 Screenshots (concept and experience), Video
 
 ### Third party material: 
-For testing without a headset, use the XR Device Simulator (included in the xr interaction toolkit package):  https://www.youtube.com/watch?v=d4bTpkvBwrs
+Fürs testen ohne Headset, XR Device Simulatot verwenden (included in the xr interaction toolkit package):  https://www.youtube.com/watch?v=d4bTpkvBwrs
+SFX: https://freesound.org
+Script der Schmelzenden wand wurde von https://github.com/simoneliskases geschrieben
 
 ### Limitations/Problems: 
 
