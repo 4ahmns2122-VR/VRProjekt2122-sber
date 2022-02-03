@@ -113,7 +113,7 @@ Nach dem herunterladen wird es einen Haufen Compilererorrors im Projekt. Um dies
 Quest/2
 
 ### Visuals: 
-Screenshots (concept and experience), Video
+Video in Assets showcase-video
 
 ### Third party material: 
 Fürs testen ohne Headset, XR Device Simulatot verwenden (included in the xr interaction toolkit package):  https://www.youtube.com/watch?v=d4bTpkvBwrs
