@@ -125,6 +125,7 @@ SFX: https://freesound.org
 ### Limitations/Problems: 
 Wenn eine Schneeball aus dem Haufen genommen wird dann kann es vorkommen, dass eine unkontrollierbare Menge an Schneebällen erstellt werden.
 Es wurde vorerst behoben indem der Trigger vom Haufen größer gemacht wurde, jetzt muss man dafür arbeiten dass dieser Bug auftitt.
+Kann gerade nicht gebuildet werden (issues).
 
 
 Copyright by Simon M. Berger
